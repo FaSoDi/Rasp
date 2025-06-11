@@ -1,0 +1,33 @@
+.cv-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cv-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cv-card {
+  display: block;
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.cv-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+}
+
+.cv-card h2 {
+  color: #0077cc;
+  margin: 0 0 10px;
+}

@@ -1,0 +1,1 @@
+export default function Competences() { return <div style={{ padding: '40px 20px', textAlign: 'center' }}><h1>Compétences</h1><p>Contenu à venir...</p></div>; }

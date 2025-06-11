@@ -1,0 +1,32 @@
+.projects-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.project-card {
+  display: block;
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-3px);
+}
+
+.project-card h2 {
+  margin-top: 0;
+  color: #0077cc;
+}
+
+.project-card ul {
+  padding-left: 18px;
+  margin-top: 10px;
+}
